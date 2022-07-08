@@ -1,0 +1,40 @@
+#header {
+  height: 150px;
+  margin: 0 auto;
+  background: #21628c;
+  font-family: arial;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#footer {
+    height: 150px;
+    margin: 350px auto;
+    background: lightcoral;
+    font-family: arial;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  background-color: #e0ffff;
+}
+
+.add {
+  margin-right: 200px;
+}
+
+.sub {
+  margin-right: 200px;
+}
+
+.mul {
+  margin-right: 200px;
+}
+
+.mul {
+  margin-right: 200px;
+}
