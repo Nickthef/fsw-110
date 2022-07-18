@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Other Html Inputs</title>
+  </head>
+  <body>
+    <form name="myForm">
+      <label for="fname">First name:</label><br />
+      <input type="text" id="fname" name="fname" /><br />
+
+      <label for="lname">Last name:</label><br />
+      <input type="text" id="lname" name="lname" /><br />
+
+      <label for="age">Age:</label><br />
+      <input type="text" id="age" name="age" /><br />
+
+      <label for="radio">Have you ever shopped with us before?</label><br />
+      yes:<input type="radio" id="radio" name="decision" value="yes" />
+      no:<input type="radio" id="radio" name="decision" value="no" /><br />
+
+      <p>How likely are you to recommend us to a friend?</p>
+
+      <label for="firstQuestion"></label>
+      <select name="firstQuestion">
+        <option value="Not Likely">Not Likely</option>
+        <option value="Likely">Likely</option>
+        <option value="Very Likely">Very Likely</option>
+      </select>
+
+      <br>
+
+      <p>Check the following if you have any allergies</p>
+
+      <label for="check1">Peanuts</label>
+      <input type="checkbox" name="allergy" id="check1" value="peanuts"><br>
+
+      <label for="check2">Vegetable oil</label>
+      <input type="checkbox" name="allergy" id="check2" value="vegetable oil"><br>
+
+      <label for="check3">carmel</label>
+      <input type="checkbox" name="allergy" id="check3" value="carmel"><br>
+
+      <button>Submit Form</button>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
+</html>
