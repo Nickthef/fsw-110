@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Sofia", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Sofia", sans-serif;
+  border-bottom: 1px solid black;
+  border-style: double;
+}
+
+ul li {
+  list-style: none;
+  font-family: "Sofia", sans-serif;
+  padding: 30px;
+  font-size: 50px;
+  border-bottom: 1px solid black;
+}
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    background-color: #e5eaf5;
+    color: black;
+  }
+
+  label {
+    font-family: "Sofia", sans-serif;
+  }
+
+  img {
+    border-radius: 10%;
+    margin-top: 10px;
+  }
+
+  #final-price {
+    margin-left: 100px;
+    width: 200px;
+  }
+
+.btn {
+  margin: 0;
+  position: absolute;
+  left: 70%;
+  color: #ffffff;
+  text-transform: Capitalize;
+  text-decoration: none;
+  background: #ed3330;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+.btn:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+
+.nav {
+  border: 1px solid black;
+  background-image: url(https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.list {
+  margin-left: 50px;
+}
+
+.item-image {
+  width: 100px;
+}

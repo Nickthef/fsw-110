@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <h1>Nick's Coffee Shop</h1>
+      </nav>
+    </header>
+    <main>
+      <div class="constrain">
+        <h2>menu</h2>
+        <button onclick="orderButton()" class="btn">Place order</button>
+        <label for="final-price">Your total amount:</label>
+        <input placeholder="Total Amount" type="text" id="final-price" class="input-field" />
+        <form name="myForm">
+          <ul class="list">
+            <li>Espresso</li>
+            <br />
+            <img
+              src="https://images.unsplash.com/photo-1503240778100-fd245e17a273?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+              class="item-image"
+            />
+            <label for="espresso-price">Price: $<span class="espresso-price">4.30</span></label>
+            <input
+              type="text"
+              id="espresso-price"
+              placeholder="Place your amount"
+              class="input-field"
+            />
+            <li>Latte</li>
+            <br />
+            <img
+              src="https://images.unsplash.com/photo-1620360289100-030b032e5a27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="item-image"
+            />
+            <label for="latte-price">Price: $<span class="latte-price">6.20</span></label>
+            <input
+              type="text"
+              id="latte-price"
+              placeholder="Place your amount"
+              class="input-field"
+            />
+            <li>Iced Coffee</li>
+            <br />
+            <img
+              src="https://images.unsplash.com/photo-1533007716222-4b465613a984?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="item-image"
+            />
+            <label for="iced-coffee-price">Price: $<span class="iced-coffee-price">5.99</span></label>
+            <input
+              type="text"
+              id="iced-coffee-price"
+              placeholder="Place your amount"
+              class="input-field"
+            />
+            <li>Bagels</li>
+            <br />
+            <img
+              src="https://images.unsplash.com/photo-1521887667957-4aa563b8a899?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="item-image"
+            />
+            <label for="bagels-price">Price: $<span class="bagels-price">2.45</span></label>
+            <input
+              type="text"
+              id="bagels-price"
+              placeholder="Place your amount"
+              class="input-field"
+            />
+            <li>Donuts</li>
+            <br />
+            <img
+              src="https://images.unsplash.com/photo-1551024601-bec78aea704b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+              class="item-image"
+            />
+            <label for="donuts-price">Price: $<span class="donuts-price">3.20</span></label>
+            <input
+              type="text"
+              id="donuts-price"
+              placeholder="Place your amount"
+              class="input-field"
+            />
+            <li>Croissant</li>
+            <br />
+            <img
+              src="https://images.unsplash.com/photo-1530610476181-d83430b64dcd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+              class="item-image"
+            />
+            <label for="croissant-price">Price: $<span class="croissant-price">2.20</span></label>
+            <input
+              type="text"
+              id="croissant-price"
+              placeholder="Place your amount"
+              class="input-field"
+            />
+            <li>Breakfast Sandwich</li>
+            <img
+              src="https://images.unsplash.com/photo-1533920606431-81cd9c3bce0f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+              class="item-image"
+            />
+            <label for="breakfast-sandwich-price">Price: $<span class="breakfast-sandwich-price">7.00</span></label>
+            <input
+              type="text"
+              id="breakfast-sandwich-price"
+              placeholder="Place your amount"
+              class="input-field"
+            />
+          </ul>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <h2>Contact Us</h2>
+      <ul class="list-2">
+        <li><a href="#">Nickscoffee@yahoo.com</a></li>
+        <li><a href="#">www.Nickscoffee.com></a></li>
+        <li><a href="#">43 Main St. Easthampton Ma, 12065</a></li>
+      </ul>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
